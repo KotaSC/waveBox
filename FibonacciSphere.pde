@@ -56,10 +56,8 @@ class FibonacciSphere {
   }
   
   void render(){
-    
-    noFill();
 
-    stroke(0, 150, 200);
+    stroke(0, 100, 200);
     strokeWeight(1);
 
     for(int i = 0; i < numPoints; i++){
